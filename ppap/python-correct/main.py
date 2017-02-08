@@ -1,26 +1,26 @@
-#!/usr/local/bin/python
+#!/usr/local/bin/python3
 # -*- coding: utf-8 -*-
 
 INF = 1234567890
 
 def solve():
-    N,x = map(int,raw_input().split())
+    N,x = map(int,input().split())
 
-    a = [0 for _ in xrange(N)]
-    b = [0 for _ in xrange(N)]
-    c = [0 for _ in xrange(N)]
-    y = [0 for _ in xrange(N)]
+    a = [0 for _ in range(N)]
+    b = [0 for _ in range(N)]
+    c = [0 for _ in range(N)]
+    y = [0 for _ in range(N)]
 
-    for i in xrange(N):
-        a[i],b[i],c[i],y[i] = map(int,raw_input().split())
+    for i in range(N):
+        a[i],b[i],c[i],y[i] = map(int,input().split())
 
-    dp = [[[INF for i in xrange(51)] for j in xrange(51)] for k in xrange(101)]
+    dp = [[[INF for i in range(51)] for j in range(51)] for k in range(101)]
     dp[0][0][0] = 0
 
-    for pen in xrange(2*x+1):
-        for apple in xrange(x+1):
-            for pineapple in xrange(x+1):
-                for i in xrange(N):
+    for pen in range(2*x+1):
+        for apple in range(x+1):
+            for pineapple in range(x+1):
+                for i in range(N):
                     na,nb,nc = pen+a[i], apple+b[i], pineapple+c[i]
                     na = min(na,2*x)
                     nb = min(nb,x)
@@ -32,9 +32,9 @@ def solve():
     return -1 if ans == INF else ans
 
 def main():
-    cases = input()
-    for _ in xrange(cases):
-        print solve()
+    cases = int(input())
+    for _ in range(cases):
+        print(solve())
 
 if __name__ == '__main__':
     main()
