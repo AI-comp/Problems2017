@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.lang.Math;
 
 public class Nokemon {
 	static Scanner sc;
@@ -8,20 +9,21 @@ public class Nokemon {
 		int m = sc.nextInt();
 		int l = sc.nextInt();
 		
-		char c[] = new char[n]; // 移動方向
-		int d[] = new int[n];   // 移動距離
+		int p[] = new int[n];   // 移動方向
+		int q[] = new int[n];   // 移動距離
 		int x[] = new int[m];   // ノケモン座標x
 		int y[] = new int[m];   // ノケモン座標y
 		
 		for(int i=0; i<n; i++){
-			c[i] = sc.next().charAt(0);
-			d[i] = sc.nextInt();
+			p[i] = sc.nextInt();
+			q[i] = sc.nextInt();
 		}
 		for(int i=0; i<m; i++){
 			x[i] = sc.nextInt();
 			y[i] = sc.nextInt();
 		}
 		
+		// 2回以上同じノケモンをカウントしなように
 		boolean checked[] = new boolean[m];
 		for(int i=0; i<m; i++) checked[i] = false;
 
@@ -38,35 +40,18 @@ public class Nokemon {
 		int prex = 0, prey = 0; // 移動前の主人公の座標
 		for(int i=0; i<n; i++){
 			int top, bottom, right, left; // 今の移動中に，この範囲内であればゲットできる
-			int nx=prex, ny=prey; // 次のx座標とy座標
-			
-			if(c[i]=='N'){
-				top = prey + d[i];
-				bottom = prey;
-				right = prex + l;
+			int nx=p[i], ny=q[i]; // 次のx座標とy座標
+
+			if(prex == nx){
 				left = prex - l;
-				ny = top;
-			}
-			else if(c[i]=='S'){
-				top = prey;
-				bottom = prey - d[i];
-				right = prex + l;
-				left = prex - l;
-				ny = bottom;
-			}
-			else if(c[i]=='W'){
+				right = prex +  l;
+				top = Math.max(prey, ny);
+				bottom = Math.min(prey, ny);
+			} else {
+				left = Math.min(prex, nx);
+				right = Math.max(prex, nx);
 				top = prey + l;
 				bottom = prey - l;
-				right = prex + d[i];
-				left = prex;
-				nx = right;
-			}
-			else { // c[i]=='E'
-				top = prey + l;
-				bottom = prey -l;
-				right = prex;
-				left = prex - d[i];
-				nx = left;
 			}
 			
 			// 移動中にゲットできるノケモン
