@@ -4,7 +4,7 @@
 #c_generator(src='generator.c')
 #cxx_generator(src='generator.cc', dependency=['testlib.h'])
 #java_generator(src='Generator.java', encoding='UTF-8', mainclass='Generator')
-#script_generator(src='generator.pl')
+script_generator(src='generator.py')
 
 ## Input validators.
 #c_validator(src='validator.c')

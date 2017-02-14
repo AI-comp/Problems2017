@@ -3,7 +3,7 @@
 pid='X'
 
 problem(
-  time_limit=5.0,
+  time_limit=15.0,
   id=pid,
   title=pid + ": PPAP",
   #wiki_name="Your pukiwiki page name", # for wikify plugin
