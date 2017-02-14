@@ -17,7 +17,7 @@ public class Cryptanalysis {
 			}
 			System.out.println();
 		}
-
+		sc.close();
 	}
 
 }
