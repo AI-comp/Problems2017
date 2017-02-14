@@ -6,10 +6,12 @@ const int minnum=1;
 const int maxnum=100;
 ////
 
-int a,b,c;
-
 int main(){
-	while(cin>>a>>b>>c){
+	int numofcase;
+	cin>>numofcase;
+	while(numofcase--){
+		int a,b,c;
+		cin>>a>>b>>c;
 		if(a<minnum||a>maxnum){
 			printf("range error : a\n");
 			return -1;

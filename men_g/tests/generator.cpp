@@ -25,6 +25,7 @@ void generate_case(string name,int minnum,int maxnum){
 		printf("File open error!\n");
 		return ;
 	}
+	fprintf(fp, "%d\n", numofcase);
 	for(int cases=0;cases<numofcase;cases++){
 		int a,b,c;
 		a=RandomInt(minnum,maxnum);
