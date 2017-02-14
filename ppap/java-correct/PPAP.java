@@ -48,7 +48,7 @@ public class PPAP {
 			PPAP solver = new PPAP();
 			System.out.println(solver.solve());
 		}
-
+		sc.close();
 	}
 
 }

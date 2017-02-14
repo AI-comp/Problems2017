@@ -88,7 +88,7 @@ public class Nokemon {
 			Nokemon solver = new Nokemon();
 			System.out.println(solver.solve());
 		}
-		
+		sc.close();
 	}
 	
 }

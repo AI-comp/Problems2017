@@ -22,7 +22,7 @@ public class Factorial {
 			Factorial solver = new Factorial();
 			System.out.println(solver.solve());
 		}
-
+		sc.close();
 	}
 
 }
