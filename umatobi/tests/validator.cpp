@@ -6,10 +6,12 @@ const int minlen=1;
 const int maxlen=100;
 ////
 
-string s;
-
 int main(){
-	while(cin>>s){
+	int numofcase;
+	cin>>numofcase;
+	while(numofcase--){
+		string s;
+		cin>>s;
 		int len=s.length();
 		if(len<minlen||len>maxlen){
 			printf("length error\n");

@@ -18,7 +18,10 @@ void solve(char s[]){
 
 int main(){
 	char s[500];
-	while(scanf("%s",s)!=EOF){
+	int numofcase;
+	scanf("%d",&numofcase);
+	while(numofcase--){
+		scanf("%s",s);
 		solve(s);
 	}
 	return 0;
