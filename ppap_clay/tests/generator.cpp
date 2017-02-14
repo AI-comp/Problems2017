@@ -1,4 +1,7 @@
 #include <iostream>
+#include <cstring>
+#include <cstdio>
+#include <random>
 using namespace std;
 
 //// limit
