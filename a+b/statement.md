@@ -99,7 +99,6 @@ int main() {
 
 ```
 #!/usr/local/bin/python3
-# -*- coding: utf-8 -*-
 
 def solve():
     a,b = map(int,input().split())
