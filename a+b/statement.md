@@ -46,13 +46,12 @@ A B
 #include <stdio.h>
 
 int main() {
-    while (1) {
+    int t;
+    scanf("%d", &t);
+	while (t-- > 0){
         int a, b;
         scanf("%d %d", &a, &b);
-        if (a == 0 && b == 0) {
-            break;
-        }
-        int answer = 0; /* EDIT HERE */
+        int answer = 0; // EDIT HERE
         printf("%d\n", answer);
     }
     return 0;
@@ -64,19 +63,17 @@ int main() {
 ```
 import java.util.Scanner;
 
-class Main {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        while (true) {
-            int a = sc.nextInt();
-            int b = sc.nextInt();
-            if (a == 0 && b == 0) {
-                break;
-            }
-            int answer = 0; // EDIT HERE
-            System.out.println(answer);
-        }
-    }
+public class AplusB {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		for(int i=0; i<n; i++){
+			int a = sc.nextInt();
+			int b = sc.nextInt();
+			System.out.println(0); // EDIT HERE
+		}
+		sc.close();
+	}
 }
 ```
 
@@ -87,10 +84,13 @@ class Main {
 using namespace std;
 
 int main() {
-    int a, b;
-    while(cin >> a >> b, a | b) {
-        int answer = 0; // EDIT HERE
-        cout << answer << endl;
+    int t;
+    cin >> t;
+    for(int i=0; i<t; i++){
+   	    int a, b;
+        cin >> a >> b;
+        int ans = 0; // EDIT HERE
+        cout << ans << endl;
     }
 }
 ```
@@ -98,22 +98,32 @@ int main() {
 ## Python 3
 
 ```
-while 1:
-  a, b = map(int, input().split())
-  if a == 0 and b == 0:
-    break
-  answer = 0 # EDIT HERE
-  print(answer)
+#!/usr/local/bin/python3
+# -*- coding: utf-8 -*-
+
+def solve():
+    a,b = map(int,input().split())
+    return a + b
+
+def main():
+    cases = int(input())
+    for _ in range(cases):
+        print(solve())
+
+if __name__ == '__main__':
+    main()
 ```
 
-## Ruby 2.0
+## Ruby
 
 ```
-while true
-  a, b = gets.split.map(&:to_i)
-  break if a == 0 and b == 0
-  answer = 0 # EDIT HERE
-  puts answer
+#!/usr/bin/ruby
+
+n = gets.to_i
+while n>0
+    a, b = gets.split.map(&:to_i)
+    puts a+b
+    n = n-1
 end
 ```
 
