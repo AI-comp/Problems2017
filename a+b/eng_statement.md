@@ -22,7 +22,7 @@ The input has multiple testcases.
 In the first line, the number of testcases T (1 <= T <= 50) is given.  
 2行目以降にはテストケースが記述されており、1つのテストケースは以下の1行からなる。  
 After the second line, testcases are given.  
-Each testcase consists of 1 line :  
+Each testcase consists of following 1 line :  
 
 ```
 A B
