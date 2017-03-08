@@ -1,13 +1,13 @@
 # Statement
 
 2つの整数A, Bの和を求めよ。  
-For two integers A and B, calculate A+B.
+For given two integers A and B, calculate A+B.
 
 なお、この問題は入出力の練習のために用意されている。  
-This problem is for practicing input/output.  
+Note that this problem is for practicing input/output.  
 問題の末尾にサンプルプログラムなどが示されているので、参考にせよ。  
 There are some sample programs at the end of this problem statement.  
-Please refer to them.
+Please refer to them if necessary.
 
 # Constraints
 
@@ -17,12 +17,12 @@ Please refer to them.
 # Input
 
 入力は複数のテストケースから成る。  
-The input has multiple testcases.   
+The input has multiple test cases.   
 最初の1行目にはテストケースの数Tが整数で与えられる。(1 <= T <= 50)  
-In the first line, the number of testcases T (1 <= T <= 50) is given.  
+In the first line, the number of test cases T (1 <= T <= 50) is given.  
 2行目以降にはテストケースが記述されており、1つのテストケースは以下の1行からなる。  
-After the second line, testcases are given.  
-Each testcase consists of following 1 line :  
+After the second line, test cases are given.  
+Each test case consists of following 1 line :  
 
 ```
 A B
@@ -30,7 +30,7 @@ A B
 
 # Output
 各テストケースに対して、A+Bを1行ずつ出力せよ。  
-For each testcase, print a single line containing A+B.
+For each test case, print a single line containing A+B.
 
 # Sample Input
 ```
@@ -156,24 +156,24 @@ g++ main.cpp
 ```
 
 コンパイルでは必要に応じて、``-O2``や``-Wall``などのコンパイルオプションを使用するとよいかもしれない。  
-Use the compiler option such as ``-O2`` and ``-Wall`` if necessary.
+Use compiler options such as ``-O2`` and/or ``-Wall`` and so on, if necessary.
 
 * ファイルから入力する
-* To read input from file
+* To read input from a file
 
 ```
 ./a.out < in.txt
 ```
 
 * ファイルへ出力する
-* To write output to file
+* To write output to a file
 
 ```
 ./a.out > out.txt
 ```
 
 * ファイル入出力を同時に行う  
-* To read input from file and write output to file
+* To read input from a file and write output to a file
 
 ```
 ./a.out < in.txt > out.txt
@@ -190,21 +190,21 @@ java Main
 ```
 
 * ファイルから入力する
-* To read input from file
+* To read input from a file
 
 ```
 java Main < in.txt
 ```
 
 * ファイルへ出力する
-* To write output to file
+* To write output to a file
 
 ```
 java Main > out.txt
 ```
 
 * ファイル入出力を同時に行う
-* To read input from file and write output to file
+* To read input from a file and write output to a file
 
 ```
 java Main < in.txt > out.txt
