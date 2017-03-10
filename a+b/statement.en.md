@@ -1,26 +1,19 @@
 # Statement
 
-2つの整数A, Bの和を求めよ。  
 For given two integers A and B, calculate A+B.
 
-なお、この問題は入出力の練習のために用意されている。  
-Note that this problem is for practicing input/output.  
-問題の末尾にサンプルプログラムなどが示されているので、参考にせよ。  
 There are some sample programs at the end of this problem statement.  
 Please refer to them if necessary.
 
 # Constraints
 
-* Integer A, B 
+* A and B are integers.
 * -5000 <= A, B <= 5000
 
 # Input
 
-入力は複数のテストケースから成る。  
 The input has multiple test cases.   
-最初の1行目にはテストケースの数Tが整数で与えられる。(1 <= T <= 50)  
 In the first line, the number of test cases T (1 <= T <= 50) is given.  
-2行目以降にはテストケースが記述されており、1つのテストケースは以下の1行からなる。  
 From the second line, T test cases are given.  
 Each of them is 1 line in the following format :  
 
@@ -29,7 +22,6 @@ A B
 ```
 
 # Output
-各テストケースに対して、A+Bを1行ずつ出力せよ。  
 For each test case, print a single line containing A+B.
 
 # Sample Input
@@ -57,7 +49,7 @@ For each test case, print a single line containing A+B.
 int main() {
     int t;
     scanf("%d", &t);
-	while (t-- > 0){
+    while (t-- > 0){
         int a, b;
         scanf("%d %d", &a, &b);
         int answer = 0; // EDIT HERE
@@ -72,7 +64,7 @@ int main() {
 ```
 import java.util.Scanner;
 
-public class AplusB {
+public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
@@ -96,7 +88,7 @@ int main() {
     int t;
     cin >> t;
     for(int i=0; i<t; i++){
-   	    int a, b;
+        int a, b;
         cin >> a >> b;
         int ans = 0; // EDIT HERE
         cout << ans << endl;
@@ -139,7 +131,6 @@ end
 
 ## C / C++
 
-* コンパイル・実行 (C)
 * To compile and execute (C)
 
 ```
@@ -147,7 +138,6 @@ gcc main.c
 ./a.out
 ```
 
-* コンパイル・実行 (C++)
 * To compile and execute (C++)
 
 ```
@@ -155,24 +145,20 @@ g++ main.cpp
 ./a.out
 ```
 
-コンパイルでは必要に応じて、``-O2``や``-Wall``などのコンパイルオプションを使用するとよいかもしれない。  
 Use compiler options such as ``-O2`` and/or ``-Wall`` and so on, if necessary.
 
-* ファイルから入力する
 * To read input from a file
 
 ```
 ./a.out < in.txt
 ```
 
-* ファイルへ出力する
 * To write output to a file
 
 ```
 ./a.out > out.txt
 ```
 
-* ファイル入出力を同時に行う  
 * To read input from a file and write output to a file
 
 ```
@@ -181,7 +167,6 @@ Use compiler options such as ``-O2`` and/or ``-Wall`` and so on, if necessary.
 
 ## Java
 
-* コンパイル・実行
 * To compile and execute (Java)
 
 ```
@@ -189,21 +174,18 @@ javac Main.java
 java Main
 ```
 
-* ファイルから入力する
 * To read input from a file
 
 ```
 java Main < in.txt
 ```
 
-* ファイルへ出力する
 * To write output to a file
 
 ```
 java Main > out.txt
 ```
 
-* ファイル入出力を同時に行う
 * To read input from a file and write output to a file
 
 ```
@@ -212,5 +194,4 @@ java Main < in.txt > out.txt
 
 ## Python / Ruby
 
-自分で調べてください。  
 Please google by yourself.

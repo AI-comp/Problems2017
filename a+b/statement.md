@@ -48,7 +48,7 @@ A B
 int main() {
     int t;
     scanf("%d", &t);
-	while (t-- > 0){
+    while (t-- > 0){
         int a, b;
         scanf("%d %d", &a, &b);
         int answer = 0; // EDIT HERE
@@ -63,7 +63,7 @@ int main() {
 ```
 import java.util.Scanner;
 
-public class AplusB {
+public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
@@ -87,7 +87,7 @@ int main() {
     int t;
     cin >> t;
     for(int i=0; i<t; i++){
-   	    int a, b;
+        int a, b;
         cin >> a >> b;
         int ans = 0; // EDIT HERE
         cout << ans << endl;
