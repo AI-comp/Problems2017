@@ -5,12 +5,14 @@
 
 
 # Input
-The input has multiple testcases.  
-In the first line, the number of testcases T (1 <= T <= 50) is given.  
-After the second line, testcases are given.  
-Each testcase consists of following ??? line :  
+The input has multiple test cases.  
+In the first line, the number of test cases T (1 <= T <= 50) is given.  
+From the second line, T test cases are given.  
+Each of them is ??? line in the following format :  
+
+
 
 # Output
-For each testcase, print a single line containing ???.  
+For each test case, print a single line containing ???.  
 
 # Solution

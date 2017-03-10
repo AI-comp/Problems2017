@@ -21,8 +21,8 @@ The input has multiple test cases.
 最初の1行目にはテストケースの数Tが整数で与えられる。(1 <= T <= 50)  
 In the first line, the number of test cases T (1 <= T <= 50) is given.  
 2行目以降にはテストケースが記述されており、1つのテストケースは以下の1行からなる。  
-After the second line, test cases are given.  
-Each test case consists of following 1 line :  
+From the second line, T test cases are given.  
+Each of them is 1 line in the following format :  
 
 ```
 A B
