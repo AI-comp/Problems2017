@@ -1,4 +1,4 @@
-> [Hint] 以下の文字列は，文字化けではありません．ちゃんとした問題です．
+> [Hint] 以下の文字列は文字化けではありません。ちゃんとした問題です。
 
 # Nocmbszdsyx
 Drsc zbylvow cdkdowoxd sc oxmbizdon li k celcdsdedsyx mszrob.
@@ -17,4 +17,3 @@ Okmr vsxo sc yxo cdbsxq, grsmr wokxc ofobi vsxo myxcscdc yp yxvi vygob voddobc k
 # Yedzed
 Pyb okmr sxzed, yedzed dro bocevd yp nombizdsyx sx k vsxo.
 Okmr vsxo cryen lo oxnon li k vsxo lboku kxn xy ohdbk mrkbkmdobc cryevn ymmeb sx dro yedzed.
-
