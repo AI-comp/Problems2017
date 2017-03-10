@@ -1,27 +1,28 @@
 # Statement
 
-2つの整数A, Bの和を求めよ。
+For given two integers A and B, calculate A+B.
 
-なお、この問題は入出力の練習のために用意されている。
-問題の末尾にサンプルプログラムなどが示されているので、参考にせよ。
+There are some sample programs at the end of this problem statement.  
+Please refer to them if necessary.
 
 # Constraints
 
-* A, B は整数
+* A and B are integers.
 * -5000 <= A, B <= 5000
 
 # Input
 
-入力は複数のデータセットから成る。
-最初の1行目にはテストケースの数Tが整数で与えられる。(1 <= T <= 50)
-2行目以降にはテストケースが記述されており、1つのテストケースは以下の1行からなる。
+The input has multiple test cases.   
+In the first line, the number of test cases T (1 <= T <= 50) is given.  
+From the second line, T test cases are given.  
+Each of them is 1 line in the following format :  
 
 ```
 A B
 ```
 
 # Output
-各データセットに対して、A+Bを1行ずつ出力せよ。
+For each test case, print a single line containing A+B.
 
 # Sample Input
 ```
@@ -130,35 +131,35 @@ end
 
 ## C / C++
 
-* コンパイル・実行 (C)
+* To compile and execute (C)
 
 ```
 gcc main.c
 ./a.out
 ```
 
-* コンパイル・実行 (C++)
+* To compile and execute (C++)
 
 ```
 g++ main.cpp
 ./a.out
 ```
 
-コンパイルでは必要に応じて、``-O2``や``-Wall``などのコンパイルオプションを使用するとよいかもしれない。
+Use compiler options such as ``-O2`` and/or ``-Wall`` and so on, if necessary.
 
-* ファイルから入力する
+* To read input from a file
 
 ```
 ./a.out < in.txt
 ```
 
-* ファイルへ出力する
+* To write output to a file
 
 ```
 ./a.out > out.txt
 ```
 
-* ファイル入出力を同時に行う
+* To read input from a file and write output to a file
 
 ```
 ./a.out < in.txt > out.txt
@@ -166,26 +167,26 @@ g++ main.cpp
 
 ## Java
 
-* コンパイル・実行
+* To compile and execute (Java)
 
 ```
 javac Main.java
 java Main
 ```
 
-* ファイルから入力する
+* To read input from a file
 
 ```
 java Main < in.txt
 ```
 
-* ファイルへ出力する
+* To write output to a file
 
 ```
 java Main > out.txt
 ```
 
-* ファイル入出力を同時に行う
+* To read input from a file and write output to a file
 
 ```
 java Main < in.txt > out.txt
@@ -193,4 +194,4 @@ java Main < in.txt > out.txt
 
 ## Python / Ruby
 
-自分で調べてください。
+Please google by yourself.
