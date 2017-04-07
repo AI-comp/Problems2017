@@ -12,11 +12,10 @@
 
 ### [E. Cryptanalysis](cryptanalysis/statement.md)
 
-### [F. N-GO!](nokemon/statement.md)
+### [F. NOKEMON GO](nokemon/statement.md)
 
 ### [G. PPAP](ppap/statement.md)
 
 ## Sample Problems
 
 ### [A+B](a+b/statement.md)
-
