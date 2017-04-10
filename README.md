@@ -22,7 +22,7 @@
 
 ------
 
-## How to Solve and Test Problems
+# How to Solve and Test Problems
 
 1. rime+をインストール (rime本家は現在pip installしても動かない)
 ```
