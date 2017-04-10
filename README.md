@@ -8,7 +8,7 @@
 
 ### [C. あぁ＾～馬跳びぴょんぴょんするんじゃぁ＾～](umatobi/statement.md)
 
-### [D. ピコ太郎、クレイ数学研究所に挑むってよ](ppap_clay/statement.md)
+### [D. P=NP](ppap_clay/statement.md)
 
 ### [E. Cryptanalysis](cryptanalysis/statement.md)
 
@@ -19,4 +19,3 @@
 ## Sample Problems
 
 ### [A+B](a+b/statement.md)
-
