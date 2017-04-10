@@ -26,7 +26,7 @@
 $N x$
 $a_1 b_1 c_1 r_1$
 $a_2 b_2 c_2 r_2$
-$\\vdots$
+$\vdots$
 $a_N b_N c_N r_N$
 ```
 
