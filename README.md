@@ -42,3 +42,5 @@ rime add <problem_dir_name> solution <solution_name>
 プロジェクトのルートで実行すれば，全問題に対するジャッジが走る．問題のディレクトリ内で実行すれば，その問題だけのジャッジが走る．解法のディレクトリ内で実行すれば，その解法だけのジャッジが走る．
 
 6. （できたら解法のPRが欲しい．）
+
+他にもrimeの機能はあるので，詳しく知りたい場合はこちら： https://rime.readthedocs.io/ja/latest/
