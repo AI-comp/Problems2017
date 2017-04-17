@@ -101,14 +101,12 @@ int main() {
 ```
 #!/usr/local/bin/python3
 
-def solve():
-    a,b = map(int,input().split())
-    return a + b
-
 def main():
     cases = int(input())
     for _ in range(cases):
-        print(solve())
+        a,b = map(int,input().split())
+        ans = 0 // EDIT HERE
+        print(ans)
 
 if __name__ == '__main__':
     main()
@@ -122,7 +120,8 @@ if __name__ == '__main__':
 n = gets.to_i
 while n>0
     a, b = gets.split.map(&:to_i)
-    puts a+b
+    ans = 0 // EDIT HERE
+    puts ans
     n = n-1
 end
 ```
