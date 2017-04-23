@@ -12,7 +12,7 @@ Wikipedia「P≠NP予想」より
 例えば、文字列`NPPAP`は、`PPAP`先頭の`P`を`NP`に置換することで、生成可能である。
 
 # Constraints
- - $1 \leq |S| \leq 100$  
+ - $1 \leq |S| \leq 1000$  
  - $S$は`A`、`N`、`P`のみからなる。
 
 # Input

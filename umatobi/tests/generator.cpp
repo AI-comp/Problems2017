@@ -4,8 +4,8 @@ using namespace std;
 //// limit
 const int smallminlen=20;
 const int smallmaxlen=50;
-const int largeminlen=90;
-const int largemaxlen=100;
+const int largeminlen=100;
+const int largemaxlen=1000;
 ////
 
 //// cases

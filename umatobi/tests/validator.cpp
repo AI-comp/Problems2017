@@ -3,7 +3,7 @@ using namespace std;
 
 //// limit
 const int minlen=1;
-const int maxlen=100;
+const int maxlen=1000;
 ////
 
 int main(){
