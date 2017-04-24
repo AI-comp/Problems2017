@@ -29,12 +29,14 @@ $S$
 
 # Sample Input
 ```
-2
+3
 NPPAP
 PPNAP
+NNPNNPAP
 ```
 # Sample Output
 ```
 YES
 NO
+YES
 ```

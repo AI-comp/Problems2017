@@ -13,7 +13,7 @@ const int largemaxlen=1000;
 
 //// cases
 const int numofsmallcase=20;
-const int numoflargecase=50;
+const int numoflargecase=49;
 string random_small_name="small.in";
 string random_large_name="large.in";
 ////
@@ -35,7 +35,7 @@ void generate_case(string name,int minlen,int maxlen,int numofcase){
 		char s[1111];
 		memset(s,0,sizeof(s));
 		int len=RandomInt(minlen,maxlen);
-		int yesorno=RandomInt(0,100)/90;
+		int yesorno=RandomInt(0,100)/80;
 		if(yesorno){
 			for(int i=0;i<2;i++){
 				int idx;
@@ -50,6 +50,8 @@ void generate_case(string name,int minlen,int maxlen,int numofcase){
 				for(idx=RandomInt(0,len-1);s[idx]!=0;idx=RandomInt(0,len-1));
 				s[idx]=cs[i];
 			}
+			int lastp=RandomInt(0,100)/70;
+			if(lastp)s[len-1]='P';
 		}
 		for(int i=0;i<len;i++)if(s[i]==0)s[i]='N';
 		fprintf(fp, "%s\n", s);
