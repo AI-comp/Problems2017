@@ -7,12 +7,12 @@ Sp iye kbo cemcoccpevvi boknsxq drsc cdkdowoxd, iyeb nombizdsyx coowc dy lo zobp
 Zvokco nombizd sxzed cdbsxqc li dro bevo iye kbo boknsxq drsc cdkdowoxd kxn yedzed dro bocevdsxq dohd.
 
 # Myxcdbksxdc
-Sxzed psvo myxcscdc yp yxvi vygob voddob kvzrklodc kxn vsxo loku(\x).
+Sxzed psvo myxcscdc yp yxvi vygob voddob kvzrklodc kxn vsxo lboku(\x).
 Dro dydkv voxqdr yp dro qsfox cdbsxqc nyoc xyd ohmoon 10,000.
 
 # Sxzed
 Sxzed psvo myxdksxc cofobkv vsxoc.
-Okmr vsxo sc yxo cdbsxq, grsmr wokxc ofobi vsxo myxcscdc yp yxvi vygob voddobc kxn oxnc gsdr k vsxo loku.
+Okmr vsxo sc yxo cdbsxq, grsmr wokxc ofobi vsxo myxcscdc yp yxvi vygob voddobc kxn oxnc gsdr k vsxo lboku.
 
 # Yedzed
 Pyb okmr sxzed, yedzed dro bocevd yp nombizdsyx sx k vsxo.
