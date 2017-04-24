@@ -4,13 +4,13 @@ using namespace std;
 //// limit
 const int smallminnum=1;
 const int smallmaxnum=10;
-const int largeminnum=50;
-const int largemaxnum=100;
+const int largeminnum=100;
+const int largemaxnum=1000;
 ////
 
 //// cases
 const int numofsmallcase=20;
-const int numoflargecase=50;
+const int numoflargecase=1000;
 string random_small_name="small.in";
 string random_large_name="large.in";
 ////
