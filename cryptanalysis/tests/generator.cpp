@@ -6,7 +6,7 @@
 using namespace std;
 
 int main(){
-	ofstream ofs("large.in"); 
+	ofstream ofs("randomtest.in");
 	int left_length = 10000;
 	srand(time(NULL));
 	while(left_length>0){
@@ -18,4 +18,3 @@ int main(){
 	}
 	return 0;
 }
-
