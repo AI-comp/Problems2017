@@ -26,8 +26,8 @@ void generate_set(const string &file_name, int num_case, int max_num){
 
 int main(){
 	srand(time(NULL));
-	generate_set("small.in", 20, 3000);
-	generate_set("large.in", 500, INT_MAX);
+	generate_set("small_test.in", 20, 3000);
+	generate_set("large_test.in", 500, INT_MAX);
 	generate_set("random_test.in", 500, INT_MAX);
 	return 0;
 }
