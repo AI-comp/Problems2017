@@ -11,8 +11,8 @@ const int largemaxlen=1000;
 //// cases
 const int numofsmallcase=20;
 const int numoflargecase=49;
-string random_small_name="small.in";
-string random_large_name="large.in";
+string random_small_name="random_small.in";
+string random_large_name="random_large.in";
 ////
 
 int RandomInt(int mini,int maxx){
