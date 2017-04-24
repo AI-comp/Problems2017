@@ -17,7 +17,7 @@ void solve(char s[]){
 }
 
 int main(){
-	char s[500];
+	char s[1000];
 	int numofcase;
 	scanf("%d",&numofcase);
 	while(numofcase--){

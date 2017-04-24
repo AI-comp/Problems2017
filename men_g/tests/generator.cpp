@@ -4,12 +4,13 @@ using namespace std;
 //// limit
 const int smallminnum=1;
 const int smallmaxnum=10;
-const int largeminnum=50;
-const int largemaxnum=100;
+const int largeminnum=100;
+const int largemaxnum=1000;
 ////
 
 //// cases
-const int numofcase=50;
+const int numofsmallcase=20;
+const int numoflargecase=1000;
 string random_small_name="random_small.in";
 string random_large_name="random_large.in";
 ////
@@ -18,7 +19,7 @@ int RandomInt(int mini,int maxx){
 	return mini+(int)(rand()*(maxx-mini+1.0)/(1.0+RAND_MAX));
 }
 
-void generate_case(string name,int minnum,int maxnum){
+void generate_case(string name,int minnum,int maxnum,int numofcase){
 	FILE *fp;
 
 	if((fp=fopen(name.c_str(),"w"))==NULL){
@@ -38,7 +39,7 @@ void generate_case(string name,int minnum,int maxnum){
 
 int main(){
 	srand((unsigned int)time(NULL));
-	generate_case(random_small_name,smallminnum,smallmaxnum);
-	generate_case(random_large_name,largeminnum,largemaxnum);
+	generate_case(random_small_name,smallminnum,smallmaxnum,numofsmallcase);
+	generate_case(random_large_name,largeminnum,largemaxnum,numoflargecase);
 	return 0;
 }

@@ -3,7 +3,7 @@ using namespace std;
 
 //// limit
 const int minnum=1;
-const int maxnum=100;
+const int maxnum=1000;
 ////
 
 int main(){

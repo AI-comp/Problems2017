@@ -8,11 +8,11 @@ Wikipedia「P≠NP予想」より
 ```
 
 文字`A`、`N`、`P`からなる文字列$S$が与えられる。
-与えられた文字列$S$が、文字列`PPAP`から`P=NP`の置換を使って生成可能ならば`YES`、不可能ならば`NO`と出力せよ。  
+与えられた文字列$S$が、文字列`PPAP`から`P` = `NP`の置換を使って生成可能ならば`YES`、不可能ならば`NO`と出力せよ。  
 例えば、文字列`NPPAP`は、`PPAP`先頭の`P`を`NP`に置換することで、生成可能である。
 
 # Constraints
- - $1 \leq |S| \leq 100$  
+ - $1 \leq |S| \leq 1000$  
  - $S$は`A`、`N`、`P`のみからなる。
 
 # Input
@@ -29,12 +29,14 @@ $S$
 
 # Sample Input
 ```
-2
+3
 NPPAP
 PPNAP
+NNPNNPAP
 ```
 # Sample Output
 ```
 YES
 NO
+YES
 ```
