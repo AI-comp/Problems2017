@@ -30,8 +30,7 @@ def generate_random_case(file_name, num_case, MAX_STORE, MAX_SHOW, MAX_PRODUCT, 
     f.close()
 
 def main():
-    generate_random_case('small.in', 10, 5, 5, 10, 100)
-    generate_random_case('large.in', 50, 50, 50, 50, 100000)
+    generate_random_case('random.in', 45, 50, 50, 50, 100000)
 
 if __name__ == '__main__':
     main()
