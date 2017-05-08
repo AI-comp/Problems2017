@@ -4,7 +4,7 @@
 
 ### [A. MEN☆G](men_g/statement.md)
 
-### [B. 製本](seihon/statement.md)
+### [B. 製本](bookmaking/statement.md)
 
 ### [C. 片付け](kataduke/statement.md)
 
