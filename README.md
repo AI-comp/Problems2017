@@ -4,17 +4,19 @@
 
 ### [A. MEN☆G](men_g/statement.md)
 
-### [B. 2017](2017/statement.md)
+### [B. 製本](bookmaking/statement.md)
 
-### [C. あぁ＾～馬跳びぴょんぴょんするんじゃぁ＾～](umatobi/statement.md)
+### [C. 片付け](kataduke/statement.md)
 
-### [D. P=NP](ppap_clay/statement.md)
+### [D. WNCS](wncs/statement.md)
 
-### [E. Cryptanalysis](cryptanalysis/statement.md)
+### [E. P=NP](ppap_clay/statement.md)
 
-### [F. NOKEMON GO](nokemon/statement.md)
+### [F. 2017](2017/statement.md)
 
-### [G. PPAP](ppap/statement.md)
+### [G. NOKEMON GO](nokemon/statement.md)
+
+### [H. PPAP](ppap/statement.md)
 
 ## Sample Problem
 
