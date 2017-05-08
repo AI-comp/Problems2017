@@ -3,9 +3,9 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 public class WNCS {
-	static Scanner sc;
+  static Scanner sc;
 
-	public void solve(){
+  public void solve(){
     int n = sc.nextInt();
     char c[][] = new char[n][n];
     for(int i=0; i<n; i++){
@@ -26,10 +26,10 @@ public class WNCS {
     for(int i=0; i<n; i++) idx[i] = i;
 
     Arrays.sort(idx, new Comparator<Integer>() {
-    	public int compare(Integer i1, Integer i2) {
-    		if(nwin[i1] == nwin[i2]) return i1 - i2;
+      public int compare(Integer i1, Integer i2) {
+        if(nwin[i1] == nwin[i2]) return i1 - i2;
         else return nwin[i2] - nwin[i1];
-    	}
+      }
     });
 
     for(int i=0; i<n; i++){
@@ -37,17 +37,17 @@ public class WNCS {
       System.out.print((i==n-1)?'\n':' ');
     }
 
-		return;
-	}
+    return;
+  }
 
-	public static void main(String[] args) {
-		sc = new Scanner(System.in);
-		int n = sc.nextInt();
-		for(int i=0; i<n; i++){
-			WNCS solver = new WNCS();
-			solver.solve();
-		}
-		sc.close();
-	}
+  public static void main(String[] args) {
+    sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    for(int i=0; i<n; i++){
+      WNCS solver = new WNCS();
+      solver.solve();
+    }
+    sc.close();
+  }
 
 }
