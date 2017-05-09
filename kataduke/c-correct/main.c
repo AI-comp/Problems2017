@@ -15,6 +15,7 @@ void solve(char s[]){
 		if(i<cnt)res[i]='.';
 		else res[i]='o';
 	}
+	res[n]=0;
 	printf("%s\n", res);
 }
 
