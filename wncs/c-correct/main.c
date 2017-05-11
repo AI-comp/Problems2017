@@ -25,7 +25,7 @@ int main(int argc, char const *argv[])
     }
     for(int i=0;i<n;i++){
       for(int j=i;j<n;j++){
-        if(w[i]<w[j]){
+        if(w[i]<w[j] || (w[i]==w[j] && res[i]>res[j])){
           swap(&w[i],&w[j]);
           swap(&res[i],&res[j]);
         }
