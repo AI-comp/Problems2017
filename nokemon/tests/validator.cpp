@@ -20,21 +20,27 @@ void check_case(){
 	inf.readEoln();
 
 	int x=0, y=0;
+  set<pair<int, int> > s;
 	for(int i=0; i<n; i++){
 		int nx = inf.readInt(-field_len, field_len, "p_i");
 		inf.readSpace();
 		int ny = inf.readInt(-field_len, field_len, "q_i");
 
-		if( !( (nx==x)^(ny==y) ) ){
-			cout << "invalid movement..."<<endl;
-			exit(-1);
-		}
+		// if( !( (nx==x)^(ny==y) ) ){
+		// 	cout << "invalid movement..."<<endl;
+		// 	exit(-1);
+		// }
 		inf.readEoln();
-		x = nx;
-		y = ny;
+    if(s.count(make_pair(nx,ny))==1){
+      cout << "duplicate nokestop position..." << endl;
+      exit(-1);
+    }
+    s.insert(make_pair(nx,ny));
+		// x = nx;
+		// y = ny;
 	}
 
-	set<pair<int, int> > s;
+	s.clear();
 	for(int i=0; i<m; i++){
 		int xi = inf.readInt(-field_len, field_len, "x_i");
 		inf.readSpace();

@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define MAX_LEN 1000
+#define MAX_LEN 1010
 
 void solve(char s[]){
 	char *res=(char *)malloc(sizeof(char)*MAX_LEN);
@@ -15,6 +15,7 @@ void solve(char s[]){
 		if(i<cnt)res[i]='.';
 		else res[i]='o';
 	}
+	res[n]=0;
 	printf("%s\n", res);
 }
 

@@ -14,33 +14,9 @@ void generate_case(ofstream &ofs, int maxN, int maxM, int maxL, int field, int m
 
 	ofs << n << " " << m << " " << l << endl;
 
-	int x = 0, y = 0;
-  bool lastdir = true;
-	for(int i=0; i<n; i++){
-    bool dir;
-    if(rand()%10==1){
-      dir = lastdir;
-    } else {
-      dir = !dir;
-    }
-		int nx = x, ny = y;
-		if(dir) {
-			do {
-				nx = rand()%(field*2) - field;
-			} while(nx == x);
-		} else {
-			do {
-				ny = rand()%(field*2) - field;
-			} while(ny == y);
-		}
-
-		ofs << nx << " " << ny << endl;
-		x=nx;
-		y=ny;
-	}
-
-	set<pair<int, int>> used;
-	for(int i=0; i<m; i++){
+	set<pair<int,int>> used;
+	for(int i=0; i<n + m; i++){
+    if(i==n) used.clear();
 		int xi,yi;
 		do {
 			xi = rand()%(field*2) - field;
@@ -88,7 +64,7 @@ void generate_set(const string &file_name, int num_case, int maxN, int maxM, int
 void generate_large(const string &file_name, int num_case, int maxN, int maxM, int maxL, int field){
   ofstream ofs(file_name);
 	ofs << num_case << endl;
-  for(int i=0; i<num_case-10; i++){
+  for(int i=0; i<num_case-6; i++){
     generate_case(ofs, maxN, maxM, maxL, field);
 	}
   generate_case(ofs, 1, maxM, maxL/2, field, 1, maxM, maxL/2);
@@ -97,10 +73,10 @@ void generate_large(const string &file_name, int num_case, int maxN, int maxM, i
   generate_case(ofs, maxN, maxM, 0, field, maxN, maxM, 0);
   generate_case(ofs, maxN, maxM, maxL, field, maxN, maxM, maxL);
   generate_case(ofs, maxN, maxM, maxL, field, maxN, maxM, maxL);
-  naive_killer_case(ofs, maxN, maxM, 1, field);
-  naive_killer_case(ofs, maxN, maxM, 100, field);
-  naive_killer_case(ofs, maxN, maxM, maxL, field);
-  naive_killer_case(ofs, maxN, maxM, maxL, field);
+  // naive_killer_case(ofs, maxN, maxM, 1, field);
+  // naive_killer_case(ofs, maxN, maxM, 100, field);
+  // naive_killer_case(ofs, maxN, maxM, maxL, field);
+  // naive_killer_case(ofs, maxN, maxM, maxL, field);
 }
 
 int main(){
