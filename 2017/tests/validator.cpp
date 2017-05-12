@@ -1,7 +1,7 @@
 #include "testlib.h"
 #include <climits>
 
-const int max_testcase = 500;
+const int max_testcase = 1000;
 
 void check_case(){
 	int n = inf.readInt(1, INT_MAX, "n");
