@@ -26,9 +26,9 @@
 
 # How to Solve and Test Problems
 
-1. rime+をインストール (rime本家は現在pip installしても動かない)
+1. [rime](https://github.com/icpc-jag/rime)をインストール (rime本家は現在pip installしても動かない)
 ```
-pip install git+https://github.com/icpc-jag/rime-plus
+pip install git+https://github.com/icpc-jag/rime
 ```
 
 2. 解く問題のディレクトリ名を確かめ，以下を実行．この際，``solution_name``は既存のものと被らなければ自由に設定可能．
