@@ -29,7 +29,9 @@ def generate_random_case(file_name, num_case, MAX_N):
     f.close()
 
 def main():
-    generate_random_case('random.in', 90, 100)
+    generate_random_case('random.in', 100, 100)
+    generate_random_case('small.in', 10, 10)
+    generate_random_case('large.in', 90, 100)
 
 if __name__ == '__main__':
     main()
