@@ -26,7 +26,7 @@
 
 # How to Solve and Test Problems
 
-1. [rime](https://github.com/icpc-jag/rime)をインストール (rime本家は現在pip installしても動かない)
+1. [rime](https://github.com/icpc-jag/rime)をインストール
 ```
 pip install git+https://github.com/icpc-jag/rime
 ```
