@@ -12,7 +12,7 @@
 
 - $1 \le N \le 50$
 - $1 \le x \le 50$
-- $0 \le a_i, b_i, c_i \le 50 (ただし、a_i + b_i + c_i \ge 1)$
+- $0 \le a_i, b_i, c_i \le 50$ (ただし、$a_i + b_i + c_i \ge 1$)
 - $1 \le r_i \le 10^5$
 
 # Input
