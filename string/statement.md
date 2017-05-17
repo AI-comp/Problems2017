@@ -74,7 +74,8 @@ int main(int argc, char const *argv[])
 
         len = strlen(buf);
 
-        if(k<=len) printf("%c\n", buf[]); // EDIT HERE
+        // EDIT HERE
+        if(  ) printf("%c\n", buf[  ]);
         else printf("*\n");
     }
     return 0;
@@ -93,10 +94,10 @@ public class Main {
         for(int i = 0; i < n; i++){
             String str = sc.next();
             int k = sc.nextInt();
-
             int len = str.length();
 
-            if() System.out.println(str.charAt(0)); // EDIT HERE
+            // EDIT HERE
+            if(  ) System.out.println(str.charAt(  ));
             else System.out.println("*");
         }
         sc.close();
@@ -120,7 +121,7 @@ int main() {
         cin >> str >> k;
 
         char ans = '*';
-        if(k <= str.length()) ans = str[0]; // EDIT HERE
+        if(k <= str.length()) ans = str[k-1];
         cout << ans << endl;
     }
 }
@@ -150,22 +151,15 @@ if __name__ == '__main__':
     main()
 ```
 
-## Ruby
+# Answer Book - 文字列の取り扱いについて
 
-```
-
-```
-
-# Answer Book
-
-### 文字列の取り扱いについて
 文字列は、使用する言語ごとに取り扱い方に注意する必要がある。
 以下では、CとJavaにおいて特に注意すべき点を挙げておく。
 
-#### C
+## C
 * Cには"文字列"という概念を表すデータ構造はなく、"文字の配列(char[])"として取り扱わなければならない。
     * 各文字を取り出すには配列と同じように記述すればよい。
-* Cの文字列は、最後に"\0"という文字が入るため、配列のサイズは実際の文字数より1つ多く取らなければならない。
+* Cの文字列は、最後に`\0`という文字が入るため、配列のサイズは実際の文字数より1つ以上多く取らなければならない。
 * Cで文字列の長さを取得するには **strlen関数** を用いる。
 * Cで文字列の比較をするには **strcmp関数** を用いる。
     * string.hをincludeする必要がある
@@ -186,10 +180,9 @@ if (strcmp(str1, str2) == 0) {
 } else {
     /* str1とstr2が等しくない場合の処理 */
 }
-
 ```
 
-#### Java
+## Java
 * Javaでは、文字列はStringクラスのインスタンス(≒String型の変数)として表される。
     * "String"のSは __大文字__ である。
 * Javaの文字列から各文字を1文字だけ取り出すには **charAtメソッド** を用いる。
@@ -207,5 +200,4 @@ if (str1.equals(str2)) {
 } else {
     // str1とstr2が等しくない場合の処理
 }
-
 ```
