@@ -5,9 +5,9 @@ char buf[200];
 
 int main(int argc, char const *argv[])
 {
-  int T;
-  scanf("%d", &T);
-  while(T--){
+  int t;
+  scanf("%d", &t);
+  for(int i = 0;i < t;i++){
     int n, k;
     scanf("%s %d", buf, &k);
     n = strlen(buf);
