@@ -22,6 +22,8 @@
 
 ### [A+B](a+b/statement.md)
 
+### [String](string/statement.md)
+
 ------
 
 # How to Solve and Test Problems
