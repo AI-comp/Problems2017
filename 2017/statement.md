@@ -6,11 +6,7 @@
 
 与えらえる $N$ に対して、カトーくんがスクワットをする回数を求めよ。
 
-なお、整数 $a,b$ と $p$ に対して、
-$$
-(a \times b)\bmod{p} = ( (a \bmod{p}) \times b) \bmod{p}
-$$
-が成り立つ。
+なお、整数 $a,b$ と $p$ に対して、 $(a \times b)\bmod{p} = ( (a \bmod{p}) \times b) \bmod{p}$ が成り立つ。
 
 # Constraints
 * $1 \leq N \leq 2147483647$
