@@ -1,4 +1,4 @@
-# Statement
+# Description
 
 2つの整数 $A, B$ の和を求めよ。
 
@@ -18,7 +18,7 @@
 2行目以降には、$T$ 個のテストケースが記述されており、各テストケースは次の形式で表される。
 
 ```
-$A\ B$
+$A$ $B$
 ```
 
 # Output
@@ -44,7 +44,7 @@ $A\ B$
 ## C
 
 ```
-#include <stdio.h>
+#include &lt;stdio.h&gt;
 
 int main() {
     int t;
@@ -68,7 +68,7 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		for(int i=0; i<n; i++){
+		for(int i=0; i < n; i++){
 			int a = sc.nextInt();
 			int b = sc.nextInt();
 			System.out.println(0); // EDIT HERE
@@ -81,13 +81,13 @@ public class Main {
 ## C++
 
 ```
-#include <iostream>
+#include &lt;iostream&gt;
 using namespace std;
 
 int main() {
     int t;
     cin >> t;
-    for(int i=0; i<t; i++){
+    for(int i=0; i < t; i++){
         int a, b;
         cin >> a >> b;
         int ans = 0; // EDIT HERE
