@@ -120,8 +120,9 @@ int main() {
         int k;
         cin >> str >> k;
 
-        char ans = '*';
-        if(k <= str.length()) ans = str[k-1];
+        // EDIT HERE
+        char ans = ;
+        if(k <= str.length()) ans = ;
         cout << ans << endl;
     }
 }
@@ -130,17 +131,19 @@ int main() {
 ## Python 3
 
 ```
-#!/usr/local/bin/python3
 # -*- coding: utf-8 -*-
 
 def solve():
     s,k = input().split()
     k = int(k)
 
+    // EDIT HERE
     if k &gt; len(s):
-        return '*'
+        ans =
     else:
-        return s[k-1]
+        ans =
+
+    return ans
 
 def main():
     cases = int(input())
