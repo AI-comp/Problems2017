@@ -9,7 +9,7 @@
 
 # Constraints
 
-* $1 \leq |S| \leq 100$
+* $1 \leq |S|(= length of the S) \leq 100$
 * $S$ はアルファベット大文字と小文字からなる
 * $1 \leq k \leq 100$
 
