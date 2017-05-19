@@ -2,27 +2,27 @@
 
 ## Problem List
 
-### [A. MEN☆G](men_g/statement.md)
+### [A. MEN☆G](men_g/statement.md) (10/100)
 
-### [B. 製本](bookmaking/statement.md)
+### [B. 製本](bookmaking/statement.md) (10/100)
 
-### [C. 片付け](kataduke/statement.md)
+### [C. 片付け](kataduke/statement.md) (10/100)
 
-### [D. WNCS](wncs/statement.md)
+### [D. WNCS](wncs/statement.md) (30/300)
 
-### [E. P=NP](ppap_clay/statement.md)
+### [E. P=NP](ppap_clay/statement.md) (30/300)
 
-### [F. 2017](2017/statement.md)
+### [F. 2017](2017/statement.md) (20/400)
 
-### [G. NOKEMON GO](nokemon/statement.md)
+### [G. NOKEMON GO](nokemon/statement.md) (40/500)
 
-### [H. PPAP](ppap/statement.md)
+### [H. PPAP](ppap/statement.md) (40/1000)
 
 ## Sample Problem
 
-### [A+B](a+b/statement.md)
+### [A+B](a+b/statement.md) (100/1000)
 
-### [String](string/statement.md)
+### [String](string/statement.md) (200/2000)
 
 ------
 
