@@ -73,4 +73,4 @@ $(x_i, y_i)$ は $i$ 匹目のノケモンのいる座標。
 1ケース目は以下の図のようなノケストップとノケモンの配置である。
 2ケース目のように、ノケストップにノケモンがいることもある。
 
-<img src="nokemon.jpg" width="400">
+<img src="https://www.dropbox.com/s/8ro13smk7mqns1u/nokemon.jpg?dl=0" width="400">
