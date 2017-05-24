@@ -26,6 +26,14 @@
 
 ------
 
+# Materials
+
+* [Ranking](2017Ranking.pdf) ([OpenContest](2017Ranking-Open.pdf))
+
+* [Editorial](editorial.pdf)
+
+------
+
 # How to Solve and Test Problems
 
 1. [rime](https://github.com/icpc-jag/rime)をインストール
